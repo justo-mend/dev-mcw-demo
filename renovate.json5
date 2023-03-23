@@ -1,0 +1,62 @@
+{
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "extends": [
+    "config:base",
+    "github>whitesource/merge-confidence:beta"
+  ],
+  "ignorePresets": ["github>mdp-forks/mc:dev"],
+  /*
+  "packageRules": [
+    {
+      "groupName": "with High merge confidence",
+      "matchUpdateTypes": ["minor", "patch"]
+    },
+    {
+      "groupName": "without High merge confidence",
+      "matchUpdateTypes": ["major"]
+    }
+  ]
+  /*
+    "packageRules": [
+      {
+        "matchConfidence": ["high", "very-high"],
+        "groupName": "high merge confidence"
+      },
+      {
+        "matchConfidence": ["low"],
+        "dependencyDashboardApproval": true
+      },
+    ]
+  */
+
+  /*
+    "packageRules": [
+      {
+        "groupName": "My Special Group"
+        "matchConfidenceValues": ["high", "very-high"],
+        "pattern": "com.mycompany/*"
+        "...[other static filters]…": ….
+      },
+    */
+
+  /*
+    "packageRules": [
+    {
+      "matchConfidence": ["low"],
+      "dependencyDashboardApproval": true
+    },
+  ]
+
+  */
+
+  /*
+    "packageRules": [
+    {
+      "matchConfidence": ["high", "very-high"],
+      "matchUpdateTypes": [“patch”, “minor”],
+      "automerge": true
+    },
+  ]
+
+  */
+}
