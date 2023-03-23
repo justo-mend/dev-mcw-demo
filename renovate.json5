@@ -29,16 +29,24 @@
     
       /* More fun rules */
 
-      /*
       {
-        "groupName": "with High merge confidence",
+        "groupName": "minor and patch",
         "matchUpdateTypes": ["minor", "patch"]
       },
       {
-        "groupName": "without High merge confidence",
+        "groupName": "minor and patch - High Confidence",
+        "matchUpdateTypes": ["minor", "patch"],
+        "matchConfidence": ["high", "very high"],
+      },
+      {
+        "groupName": "major",
         "matchUpdateTypes": ["major"]
-      }
-      */
+      },
+      {
+        "groupName": "major - High confidence only",
+        "matchUpdateTypes": ["major"],
+        "matchConfidence": ["high", "very high"],
+      },
 
       /*
       {
