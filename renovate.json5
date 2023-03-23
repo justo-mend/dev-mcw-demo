@@ -31,23 +31,22 @@
 
     /* Grouping with patch, minor and major */
     {
-      "groupName": "major",
-      "matchUpdateTypes": ["major"]
-    },
-    {
-      "groupName": "minor and patch",
-      "matchUpdateTypes": ["minor", "patch"]
-    },
-    /*
-    {
-      "groupName": "major - High confidence",
+      "groupName": "major - high confidence",
       "matchUpdateTypes": ["major"],
       "matchConfidence": ["high", "very high"],
     },
     {
-      "groupName": "minor and patch - High Confidence",
+      "groupName": "major - other",
+      "matchUpdateTypes": ["major"]
+    },
+    {
+      "groupName": "minor and patch - high confidence",
       "matchUpdateTypes": ["minor", "patch"],
       "matchConfidence": ["high", "very high"],
+    },
+    {
+      "groupName": "minor and patch - other",
+      "matchUpdateTypes": ["minor", "patch"]
     },
     */
 
