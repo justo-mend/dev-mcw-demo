@@ -7,17 +7,19 @@
   "ignorePresets": ["github>mdp-forks/mc:dev"],
   "packageRules": [
     
-      /* Group High and Very High Confidence updates */
+      /* Group High and Very High Confidence updates
       {
         "matchConfidence": ["high", "very high"],
         "groupName": "high merge confidence"
       },
+      */
     
-      /* Suppress Low Confidence updates */
+      /* Suppress Low Confidence updates
       {
         "matchConfidence": ["low"],
         "dependencyDashboardApproval": true
       },
+      */
 
       /* Automerge Very High Confidence updates
       {
@@ -27,17 +29,8 @@
       },
       */
     
-      /* More fun rules 
+      /* Grouping with patch, minor and major */
 
-      {
-        "groupName": "minor and patch",
-        "matchUpdateTypes": ["minor", "patch"]
-      },
-      {
-        "groupName": "minor and patch - High Confidence",
-        "matchUpdateTypes": ["minor", "patch"],
-        "matchConfidence": ["high", "very high"],
-      },
       {
         "groupName": "major",
         "matchUpdateTypes": ["major"]
@@ -45,6 +38,15 @@
       {
         "groupName": "major - High confidence only",
         "matchUpdateTypes": ["major"],
+        "matchConfidence": ["high", "very high"],
+      },
+      {
+        "groupName": "minor and patch",
+        "matchUpdateTypes": ["minor", "patch"]
+      },
+      {
+        "groupName": "minor and patch - High Confidence",
+        "matchUpdateTypes": ["minor", "patch"],
         "matchConfidence": ["high", "very high"],
       },
 
