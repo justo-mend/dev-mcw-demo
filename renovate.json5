@@ -40,13 +40,13 @@
       "matchConfidence": ["high", "very high"],
     },
     {
-      "groupName": "minor and patch",
-      "matchUpdateTypes": ["minor", "patch"]
-    },
-    {
       "groupName": "minor and patch - high confidence",
       "matchUpdateTypes": ["minor", "patch"],
       "matchConfidence": ["high", "very high"],
+    },
+    {
+      "groupName": "minor and patch",
+      "matchUpdateTypes": ["minor", "patch"]
     },
 
     /*
