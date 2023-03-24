@@ -40,23 +40,14 @@
       "matchConfidence": ["high", "very high"],
     },
     {
+      "groupName": "minor and patch",
+      "matchUpdateTypes": ["minor", "patch"]
+    },
+    {
       "groupName": "minor and patch - high confidence",
       "matchUpdateTypes": ["minor", "patch"],
       "matchConfidence": ["high", "very high"],
     },
-    {
-      "groupName": "minor and patch",
-      "matchUpdateTypes": ["minor", "patch"]
-    },
-
-    /*
-    {
-      "groupName": "My Special Group"
-      "matchConfidenceValues": ["high", "very-high"],
-      "pattern": "com.mycompany/*"
-      "...[other static filters]…": ….
-    },
-    */
 
   ]
 }
