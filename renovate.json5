@@ -10,19 +10,19 @@
     {
       "matchConfidence": ["very high"],
       "addLabels": ["MergeConf: V-High"]
-    }
+    },
     {
       "matchConfidence": ["high"],
       "addLabels": ["MergeConf: High"]
-    }
+    },
     {
       "matchConfidence": ["low"],
       "addLabels": ["MergeConf: Low"]
-    }
+    },
     {
       "matchConfidence": ["very high"],
       "addLabels": ["MergeConf: Unknown"]
-    }
+    },
     
     /* Group High and Very High Confidence updates
     {
