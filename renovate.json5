@@ -31,16 +31,16 @@
 
     /* Grouping with patch, minor and major */
     {
+      "groupName": "major",
+      "matchUpdateTypes": ["major"]
+    },
+    {
       "groupName": "major - high confidence",
       "matchUpdateTypes": ["major"],
       "matchConfidence": ["high", "very high"],
     },
     {
-      "groupName": "major - other",
-      "matchUpdateTypes": ["major"]
-    },
-    {
-      "groupName": "minor and patch - other",
+      "groupName": "minor and patch",
       "matchUpdateTypes": ["minor", "patch"]
     },
     {
