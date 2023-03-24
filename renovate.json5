@@ -5,23 +5,25 @@
     "github>whitesource/merge-confidence:beta"
   ],
   "ignorePresets": ["github>mdp-forks/mc:dev"],
+  "labels": ["bug"]
   "packageRules": [
-    
+  
+    /* Apply labels based on Merg Confidence */
     {
       "matchConfidence": ["very high"],
-      "addLabels": ["MergeConf: V-High"]
+      "labels": ["question"]
     },
     {
       "matchConfidence": ["high"],
-      "addLabels": ["MergeConf: High"]
+      "labels": ["MergeConf: High"]
     },
     {
       "matchConfidence": ["low"],
-      "addLabels": ["MergeConf: Low"]
+      "labels": ["invalid"]
     },
     {
       "matchConfidence": ["neutral"],
-      "addLabels": ["MergeConf: Neutral"]
+      "labels": ["MergeConf: Neutral"]
     },
     
     /* Group High and Very High Confidence updates
