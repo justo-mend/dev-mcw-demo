@@ -11,19 +11,19 @@
     /* Apply labels based on Merg Confidence */
     {
       "matchConfidence": ["very high"],
-      "labels": ["question"]
+      "labels": ["v-high"]
     },
     {
       "matchConfidence": ["high"],
-      "labels": ["MergeConf: High"]
+      "labels": ["high"]
     },
     {
       "matchConfidence": ["low"],
-      "labels": ["invalid"]
+      "labels": ["low"]
     },
     {
       "matchConfidence": ["neutral"],
-      "labels": ["MergeConf: Neutral"]
+      "labels": ["neutral"]
     },
     
     
