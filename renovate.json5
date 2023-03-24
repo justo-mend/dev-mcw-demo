@@ -7,6 +7,23 @@
   "ignorePresets": ["github>mdp-forks/mc:dev"],
   "packageRules": [
     
+    {
+      "matchConfidence": ["very high"],
+      "addLabels": ["Trust V-High"]
+    }
+    {
+      "matchConfidence": ["high"],
+      "addLabels": ["Trust High"]
+    }
+    {
+      "matchConfidence": ["low"],
+      "addLabels": ["Trust Low"]
+    }
+    {
+      "matchConfidence": ["very high"],
+      "addLabels": ["Trust Unknown"]
+    }
+    
     /* Group High and Very High Confidence updates
     {
       "matchConfidence": ["high", "very high"],
@@ -29,7 +46,7 @@
     },
     */
 
-    /* Grouping with patch, minor and major */
+    /* Grouping with patch, minor and major 
     {
       "groupName": "major",
       "matchUpdateTypes": ["major"]
@@ -48,6 +65,7 @@
       "matchUpdateTypes": ["minor", "patch"],
       "matchConfidence": ["high", "very high"],
     },
+    */
 
   ]
 }
