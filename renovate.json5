@@ -20,8 +20,8 @@
       "addLabels": ["MergeConf: Low"]
     },
     {
-      "matchConfidence": ["very high"],
-      "addLabels": ["MergeConf: Unknown"]
+      "matchConfidence": ["neutral"],
+      "addLabels": ["MergeConf: Neutral"]
     },
     
     /* Group High and Very High Confidence updates
